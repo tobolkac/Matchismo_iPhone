@@ -21,6 +21,10 @@
 		65AB6CCE18A5559700E5D364 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65AB6CB018A5559700E5D364 /* UIKit.framework */; };
 		65AB6CD618A5559700E5D364 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65AB6CD418A5559700E5D364 /* InfoPlist.strings */; };
 		65AB6CD818A5559700E5D364 /* MatchismoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65AB6CD718A5559700E5D364 /* MatchismoTests.m */; };
+		65AB6CE318A55EE200E5D364 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 65AB6CE218A55EE200E5D364 /* Card.m */; };
+		65AB6CE618A5656500E5D364 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 65AB6CE518A5656500E5D364 /* Deck.m */; };
+		65AB6CE918A5686800E5D364 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 65AB6CE818A5686800E5D364 /* PlayingCard.m */; };
+		65AB6CEC18A56C5800E5D364 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 65AB6CEB18A56C5800E5D364 /* PlayingCardDeck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,14 @@
 		65AB6CD318A5559700E5D364 /* MatchismoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MatchismoTests-Info.plist"; sourceTree = "<group>"; };
 		65AB6CD518A5559700E5D364 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		65AB6CD718A5559700E5D364 /* MatchismoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatchismoTests.m; sourceTree = "<group>"; };
+		65AB6CE118A55EE100E5D364 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		65AB6CE218A55EE200E5D364 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		65AB6CE418A5656500E5D364 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		65AB6CE518A5656500E5D364 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		65AB6CE718A5686800E5D364 /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		65AB6CE818A5686800E5D364 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
+		65AB6CEA18A56C5800E5D364 /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
+		65AB6CEB18A56C5800E5D364 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +131,14 @@
 				65AB6CC218A5559700E5D364 /* CardGameViewController.m */,
 				65AB6CC418A5559700E5D364 /* Images.xcassets */,
 				65AB6CB318A5559700E5D364 /* Supporting Files */,
+				65AB6CE118A55EE100E5D364 /* Card.h */,
+				65AB6CE218A55EE200E5D364 /* Card.m */,
+				65AB6CE418A5656500E5D364 /* Deck.h */,
+				65AB6CEA18A56C5800E5D364 /* PlayingCardDeck.h */,
+				65AB6CEB18A56C5800E5D364 /* PlayingCardDeck.m */,
+				65AB6CE518A5656500E5D364 /* Deck.m */,
+				65AB6CE718A5686800E5D364 /* PlayingCard.h */,
+				65AB6CE818A5686800E5D364 /* PlayingCard.m */,
 			);
 			path = Matchismo;
 			sourceTree = "<group>";
@@ -250,9 +270,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65AB6CE918A5686800E5D364 /* PlayingCard.m in Sources */,
+				65AB6CE618A5656500E5D364 /* Deck.m in Sources */,
 				65AB6CBD18A5559700E5D364 /* CardGameAppDelegate.m in Sources */,
 				65AB6CC318A5559700E5D364 /* CardGameViewController.m in Sources */,
+				65AB6CEC18A56C5800E5D364 /* PlayingCardDeck.m in Sources */,
 				65AB6CB918A5559700E5D364 /* main.m in Sources */,
+				65AB6CE318A55EE200E5D364 /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
